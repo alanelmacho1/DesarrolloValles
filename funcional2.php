@@ -6,9 +6,9 @@
     <body>
         <?php
 //Creamos la conexión
-   $server = "148.202.89.3";
-   $user = "sicaweb";
-   $pass = "20sic@18?**";
+   $server = "localhost";
+   $user = "Database";
+   $pass = "password";
    $BD = "checador";
    $conexion = mysqli_connect($server,$user,$pass,$BD);
    //generamos la consulta
